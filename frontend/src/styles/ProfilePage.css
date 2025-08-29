@@ -1,0 +1,27 @@
+/* Profile.css */
+
+.profile-page {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 32px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.profile-page p {
+  font-size: 18px;
+  margin: 12px 0;
+  color: #444;
+}
+
+.profile-page strong {
+  color: #000;
+}

@@ -1,0 +1,73 @@
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #555;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.reviews {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+.card-footer {
+  border-top: 1px solid #eee;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.card-footer button {
+  padding: 0.5rem 1rem;
+  background-color: #0b72b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
